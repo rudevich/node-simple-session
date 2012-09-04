@@ -1,0 +1,20 @@
+{
+  "name": "simple-session",
+  "version": "0.0.1",
+  "description": "Adds support for sessions to Node HTTP Server",
+  "main": "sessions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rudevich/node-simple-session.git"
+  },
+  "keywords": [
+    "sessions",
+    "http",
+    "nodejs"
+  ],
+  "author": "Alexander Rudevich",
+  "license": "MIT"
+}
