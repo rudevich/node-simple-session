@@ -80,6 +80,7 @@ function set(session_id, key, value){
 		{
 			if(!obj.storage.hasOwnProperty(session_id)) obj.storage[session_id] = {};
 			obj.storage[session_id][key] = value;
+			return true;
 		}
 		else return false;
 	}
